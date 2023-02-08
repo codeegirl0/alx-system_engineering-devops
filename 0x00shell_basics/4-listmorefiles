@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /root/alx-system_engineering-devops 
+touch .4-listmorefiles
+ls -la

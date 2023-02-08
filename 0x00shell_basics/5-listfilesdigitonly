@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /root/alx-system_engineering-devops 
+touch 5-listfilesdigitonly
+ls -lan

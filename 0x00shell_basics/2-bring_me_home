@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /tmp
+mkdir 2-bring_me_home
+mv /tmp/2-bring_me_home /home/2-bring_m

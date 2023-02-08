@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /root/alx-system_engineering-devops
+mkdir 3-lisfiles
+ls -l

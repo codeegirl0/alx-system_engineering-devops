@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /root/alx-system_engineering-devops/0x00-shell_basics
+mkdir 1-listit
+cd 1-listit
+mkdir Applications  Desktop  Documents  Dropbox  Pictures
+ls 
