@@ -1,0 +1,10 @@
+https://github.com/alex/what-happens-when/pull/475
+
+
+When we type "g" on the keyboard:
+-an electrical signal is sent to our computer.
+-The operating system of the computer get this signal and translates it into a an ASCII code for the letter "g."
+ -then the application or software that we are using(text editor, web browser) processed This ASCII code .
+-The application displays the letter "g" on the screen using the received code.
+
+This  process happens in quickly in a second or less.

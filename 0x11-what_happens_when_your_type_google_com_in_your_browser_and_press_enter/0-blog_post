@@ -1,0 +1,17 @@
+https://medium.com/@silvernicks9/what-happens-when-your-type-google-com-in-your-browser-and-press-enter-926708ce4fdb
+
+
+When a user type “google.com” in the web browser and press enter , it seems as an easy process but there were a lot of steps  happend in the back:
+firstly the computer search in the dns local memory cache if it is already translated to an ip, if it didn't find it, then a new external process will happen:
+
+1- the request will be sent to the DNS server , requesting the translation of "google.com"( server that hosts "com" -> server that hosts "." -> server that hosts "google" )
+2- the DNS server translates "google.com" to an IP address of the server that hosts google files codes, then sends it back to the user 
+3- the user sends to the translated ip to requests all google needed codes .
+4- the web server answers the request of the user and sends back HTML CSS and JS ... files codes from the database and connecting with app server, the answer sends using HTTPS\SSL (securely).
+5- the user recieves the codes and uses it to load google.com page.
+
+Note: important steps when there are a lot  requests of users:
+1- requests will pass by a load-balacer that balance the huge users' requests
+2- the firewall will check the request to make sure if it is accepted and able to be passed or not depending on its security settings.
+
+this process happens quickly , but many fators can control its quality, such as connection and cable type, bits/s, dictance between the user and servers ....
